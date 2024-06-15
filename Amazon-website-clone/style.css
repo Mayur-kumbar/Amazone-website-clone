@@ -171,6 +171,10 @@ span {
 
 }
 
+.amazonLink{
+  text-decoration: none;
+}
+
 .msg {
   height: 40px;
   width: 94%;
@@ -186,7 +190,7 @@ span {
 .msg a {
   color: #007185;
   display: flex;
-
+  color: #007185;
 }
 
 /**shop-section**/
@@ -207,6 +211,13 @@ span {
 
 }
 
+.shopBtn{
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #007185;
+}
+
 .box-img {
   height: 260px;
   background-size: cover;
@@ -221,9 +232,16 @@ span {
 
 }
 
-.box-content p {
+/* .box-content p {
   color: #007185;
 
+} */
+
+.backBtn{
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
 }
 
 /**footer**/
