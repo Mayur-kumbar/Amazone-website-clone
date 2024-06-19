@@ -1,5 +1,4 @@
 let backBtn=document.body.querySelector(".backBtn")
-console.log(backBtn)
 
 backBtn.addEventListener("click",()=>{
     window.scrollTo({ top: 0, behavior: 'smooth' });
