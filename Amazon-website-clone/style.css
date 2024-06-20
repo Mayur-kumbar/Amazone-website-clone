@@ -159,6 +159,12 @@ span {
   padding: 2px;
 }
 
+.panel a{
+  margin-left: 15px;
+  font-size: 0.85rem;
+  padding: 2px;
+}
+
 /**hero section**/
 
 .hero-section {

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link href="contactStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form class="box">
+        <div class="input-container">
+          <input class="input" type="text" name="name" placeholder="Name" autocomplete="off" required/>
+          <div class="icon">
+            <i class="fa-regular fa-user" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="input-container">
+          <input class="input" type="email" name="email" placeholder="Email" autocomplete="off" required/>
+          <div class="icon">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="input-container">
+          <input class="input" type="text" name="subject" placeholder="Subject" autocomplete="off" required/>
+          <div class="icon">
+            <i class="fa-regular fa-pen-to-square" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="input-container">
+          <textarea class="input textarea" name="message" placeholder="Message" autocomplete="off" required></textarea>
+          <div class="icon">
+            <i class="fa-regular fa-comment" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="button-container">
+          <button type="submit" class="contact-button">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    let contactBtn = document.querySelector('.contact-button')
+    contactBtn.addEventListener('click', () => {
+      alert('Message sent successfully')
+    })
+  </script>
+</body>
+
+</html>
